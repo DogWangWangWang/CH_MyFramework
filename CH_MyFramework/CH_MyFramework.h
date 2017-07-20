@@ -15,5 +15,5 @@ FOUNDATION_EXPORT double CH_MyFrameworkVersionNumber;
 FOUNDATION_EXPORT const unsigned char CH_MyFrameworkVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <CH_MyFramework/PublicHeader.h>
-
-
+#import "CH_MyViewController.h"
+#import "CH_AddViewController.h"

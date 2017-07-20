@@ -10,6 +10,8 @@
 		87173FB41F17569500194674 /* CH_MyFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 87173FB21F17569500194674 /* CH_MyFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		87173FBC1F1756B100194674 /* CH_MyViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 87173FBA1F1756B100194674 /* CH_MyViewController.h */; };
 		87173FBD1F1756B100194674 /* CH_MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87173FBB1F1756B100194674 /* CH_MyViewController.m */; };
+		874102AB1F2046EC001A14A1 /* CH_AddViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 874102A91F2046EC001A14A1 /* CH_AddViewController.h */; };
+		874102AC1F2046EC001A14A1 /* CH_AddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 874102AA1F2046EC001A14A1 /* CH_AddViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,6 +20,8 @@
 		87173FB31F17569500194674 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		87173FBA1F1756B100194674 /* CH_MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CH_MyViewController.h; sourceTree = "<group>"; };
 		87173FBB1F1756B100194674 /* CH_MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CH_MyViewController.m; sourceTree = "<group>"; };
+		874102A91F2046EC001A14A1 /* CH_AddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CH_AddViewController.h; sourceTree = "<group>"; };
+		874102AA1F2046EC001A14A1 /* CH_AddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CH_AddViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 				87173FB21F17569500194674 /* CH_MyFramework.h */,
 				87173FBA1F1756B100194674 /* CH_MyViewController.h */,
 				87173FBB1F1756B100194674 /* CH_MyViewController.m */,
+				874102A91F2046EC001A14A1 /* CH_AddViewController.h */,
+				874102AA1F2046EC001A14A1 /* CH_AddViewController.m */,
 				87173FB31F17569500194674 /* Info.plist */,
 			);
 			path = CH_MyFramework;
@@ -67,6 +73,7 @@
 			files = (
 				87173FBC1F1756B100194674 /* CH_MyViewController.h in Headers */,
 				87173FB41F17569500194674 /* CH_MyFramework.h in Headers */,
+				874102AB1F2046EC001A14A1 /* CH_AddViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				87173FBD1F1756B100194674 /* CH_MyViewController.m in Sources */,
+				874102AC1F2046EC001A14A1 /* CH_AddViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,6 +304,7 @@
 				87173FB91F17569500194674 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
